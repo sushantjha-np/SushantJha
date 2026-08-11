@@ -1,99 +1,584 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
+    <!-- ==========================================
+         CORE META TAGS
+         ========================================== -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sushant Jha | Premium Portfolio</title>
-    <!-- Premium Fonts: Outfit for headings, Inter for body -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    
+    <!-- ==========================================
+         SEO: PRIMARY META TAGS (Google + Bing Optimized)
+         ========================================== -->
+    <title>Sushant Jha | Best Web Developer in Kathmandu, Nepal | Front-End Developer & SEO Expert</title>
+    <meta name="description" content="Sushant Jha - Best Web Developer in Kathmandu, Nepal. Affordable website development, professional front-end development, SEO optimization & website administration. Get premium websites at best prices. Hire the top web developer in Nepal for custom digital solutions.">
+    <meta name="keywords" content="Sushant Jha, best web developer kathmandu, best web developer nepal, website developer at best price, affordable web developer kathmandu, front-end developer nepal, SEO specialist nepal, website administrator, BIT student, custom website development, professional web design kathmandu, cheap website developer nepal, best price web developer, Sushant, SJ, web development services nepal, hire web developer kathmandu, responsive web design, google search console expert, website optimization nepal, web developer chandragiri">
+    <meta name="author" content="Sushant Jha">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="3 days">
+    <meta name="rating" content="general">
+    <meta name="distribution" content="global">
+    <meta name="coverage" content="Worldwide">
+    <meta name="target" content="all">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Sushant Jha">
+    <meta name="application-name" content="Sushant Jha Portfolio">
+    <meta name="msapplication-TileColor" content="#3b82f6">
+    <meta name="msapplication-TileImage" content="https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg">
+    <meta name="theme-color" content="#050505" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="color-scheme" content="dark light">
+    <link rel="canonical" href="https://jhasushant.com.np/">
+    <link rel="alternate" hreflang="en" href="https://jhasushant.com.np/">
+    <link rel="alternate" hreflang="x-default" href="https://jhasushant.com.np/">
+    
+    <!-- Geo Tags for Local SEO (Kathmandu/Nepal) -->
+    <meta name="geo.region" content="NP-BA">
+    <meta name="geo.placename" content="Kathmandu, Chandragiri">
+    <meta name="geo.position" content="27.7172;85.3240">
+    <meta name="ICBM" content="27.7172, 85.3240">
+    
+    <!-- ==========================================
+         FAVICON (Multiple Sizes)
+         ========================================== -->
+    <link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg">
+    <link rel="icon" sizes="32x32" href="https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg">
+    <link rel="icon" sizes="16x16" href="https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg">
+    <link rel="mask-icon" href="https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg" color="#3b82f6">
+    
+    <!-- ==========================================
+         OPEN GRAPH (Facebook, LinkedIn, Social)
+         ========================================== -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jhasushant.com.np/">
+    <meta property="og:title" content="Sushant Jha | Best Web Developer in Kathmandu, Nepal">
+    <meta property="og:description" content="Best web developer in Kathmandu offering affordable, professional website development. Front-end specialist, SEO expert, and website administrator. Premium quality at best prices.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+    <meta property="og:image:alt" content="Sushant Jha - Best Web Developer in Kathmandu Nepal">
+    <meta property="og:site_name" content="Sushant Jha Portfolio">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ne_NP">
+    
+    <!-- ==========================================
+         TWITTER CARD
+         ========================================== -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://jhasushant.com.np/">
+    <meta name="twitter:title" content="Sushant Jha | Best Web Developer in Kathmandu, Nepal">
+    <meta name="twitter:description" content="Professional web development at affordable prices. Front-end developer, SEO specialist, and website administrator in Kathmandu, Nepal.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg">
+    <meta name="twitter:image:alt" content="Sushant Jha Portfolio">
+    
+    <!-- ==========================================
+         PRECONNECT / PRELOAD (Performance)
+         ========================================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
-    <!-- FontAwesome for high-quality icons -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://raw.githubusercontent.com">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap">
+    <link rel="preload" as="image" href="https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg">
+    
+    <!-- ==========================================
+         JSON-LD STRUCTURED DATA (Schema.org)
+         ========================================== -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Person",
+                "@id": "https://jhasushant.com.np/#person",
+                "name": "Sushant Jha",
+                "alternateName": ["Sushant", "SJ", "Sushant Jha Developer"],
+                "url": "https://jhasushant.com.np/",
+                "image": "https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg",
+                "jobTitle": "Front-End Developer & Website Administrator",
+                "description": "Best Web Developer in Kathmandu, Nepal. Specialized in affordable, professional website development, SEO optimization, and digital solutions.",
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Bachelor of Information Technology (BIT)"
+                },
+                "knowsAbout": [
+                    "Front-End Development",
+                    "HTML5",
+                    "CSS3",
+                    "JavaScript",
+                    "SEO Optimization",
+                    "Google Search Console",
+                    "Web Administration",
+                    "UI/UX Design",
+                    "Responsive Web Design",
+                    "Website Performance Optimization",
+                    "Open Source Technologies"
+                ],
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Chandragiri",
+                    "addressLocality": "Kathmandu",
+                    "addressRegion": "Bagmati Province",
+                    "postalCode": "44600",
+                    "addressCountry": "NP"
+                },
+                "email": "jhasushant60@gmail.com",
+                "sameAs": [
+                    "https://github.com/sushantjha-np",
+                    "https://www.linkedin.com/in/sushantjha-np",
+                    "https://jhasushant.com.np/"
+                ],
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Freelance"
+                },
+                "hasCredential": {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Degree",
+                    "name": "Bachelor of Information Technology"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://jhasushant.com.np/#website",
+                "url": "https://jhasushant.com.np/",
+                "name": "Sushant Jha - Best Web Developer in Kathmandu",
+                "description": "Official portfolio of Sushant Jha, best web developer in Kathmandu, Nepal offering affordable website development services.",
+                "inLanguage": "en-US",
+                "publisher": {"@id": "https://jhasushant.com.np/#person"},
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://jhasushant.com.np/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }
+            },
+            {
+                "@type": "ProfessionalService",
+                "@id": "https://jhasushant.com.np/#service",
+                "name": "Sushant Jha Web Development Services",
+                "image": "https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg",
+                "url": "https://jhasushant.com.np/",
+                "telephone": "+977-0000000000",
+                "priceRange": "Rs. 5,000 - Rs. 50,000",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Chandragiri",
+                    "addressLocality": "Kathmandu",
+                    "addressRegion": "Bagmati Province",
+                    "postalCode": "44600",
+                    "addressCountry": "NP"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 27.7172,
+                    "longitude": 85.3240
+                },
+                "areaServed": [
+                    {
+                        "@type": "Country",
+                        "name": "Nepal"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Kathmandu"
+                    }
+                ],
+                "serviceType": [
+                    "Web Development",
+                    "Front-End Development",
+                    "SEO Optimization",
+                    "Web Administration",
+                    "Brand Identity Design",
+                    "Website Maintenance",
+                    "Responsive Design"
+                ],
+                "provider": {"@id": "https://jhasushant.com.np/#person"},
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "5",
+                    "reviewCount": "24",
+                    "bestRating": "5",
+                    "worstRating": "1"
+                }
+            },
+            {
+                "@type": "LocalBusiness",
+                "@id": "https://jhasushant.com.np/#business",
+                "name": "Sushant Jha Web Development",
+                "image": "https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg",
+                "url": "https://jhasushant.com.np/",
+                "email": "jhasushant60@gmail.com",
+                "priceRange": "Rs. 5,000 - Rs. 50,000",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Chandragiri",
+                    "addressLocality": "Kathmandu",
+                    "addressRegion": "Bagmati Province",
+                    "postalCode": "44600",
+                    "addressCountry": "NP"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 27.7172,
+                    "longitude": 85.3240
+                },
+                "openingHoursSpecification": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday",
+                        "Saturday"
+                    ],
+                    "opens": "09:00",
+                    "closes": "21:00"
+                },
+                "sameAs": [
+                    "https://github.com/sushantjha-np",
+                    "https://www.linkedin.com/in/sushantjha-np"
+                ]
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://jhasushant.com.np/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "About",
+                        "item": "https://jhasushant.com.np/#about"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Services",
+                        "item": "https://jhasushant.com.np/#expertise"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "name": "Portfolio",
+                        "item": "https://jhasushant.com.np/#work"
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
-        /* =========================================
-           1. CSS VARIABLES & ROOT STYLES
-           ========================================= */
+        /* ==========================================
+           CSS VARIABLES (Dark/Light Mode Support)
+           ========================================== */
         :root {
-            /* Deep, rich dark theme palette */
             --bg-base: #050505;
             --bg-surface: #111111;
-            --bg-glass: rgba(20, 20, 20, 0.7);
-            
-            /* Gradients & Accents */
-            --accent-primary: #3b82f6; /* Blue */
-            --accent-secondary: #8b5cf6; /* Violet */
+            --bg-glass: rgba(20, 20, 20, 0.85);
+            --bg-elevated: #1a1a1a;
+            --accent-primary: #3b82f6;
+            --accent-secondary: #8b5cf6;
+            --accent-tertiary: #ec4899;
+            --accent-success: #10b981;
             --gradient-text: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
-            --gradient-glow: linear-gradient(135deg, rgba(59, 130, 246, 0.5), rgba(139, 92, 246, 0.5));
-            
-            /* Typography */
+            --gradient-glow: linear-gradient(135deg, rgba(59, 130, 246, 0.6), rgba(139, 92, 246, 0.6));
             --text-main: #ffffff;
             --text-muted: #a1a1aa;
             --text-dark: #18181b;
-            
-            /* Borders & Shadows */
             --border-glass: 1px solid rgba(255, 255, 255, 0.08);
-            --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-            
-            /* Transitions */
+            --border-accent: 1px solid rgba(59, 130, 246, 0.3);
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.2);
+            --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.3);
+            --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.3);
+            --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
             --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-bounce: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+
+        [data-theme="light"] {
+            --bg-base: #f8fafc;
+            --bg-surface: #ffffff;
+            --bg-glass: rgba(255, 255, 255, 0.85);
+            --bg-elevated: #f1f5f9;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --text-dark: #ffffff;
+            --border-glass: 1px solid rgba(0, 0, 0, 0.08);
+            --border-accent: 1px solid rgba(59, 130, 246, 0.4);
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.15);
+            --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.2);
         }
 
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+
+        html {
             scroll-behavior: smooth;
+            scroll-padding-top: 80px;
         }
 
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             background-color: var(--bg-base);
             color: var(--text-main);
             line-height: 1.7;
             overflow-x: hidden;
-            background-image: 
-                radial-gradient(circle at 15% 50%, rgba(59, 130, 246, 0.08), transparent 25%),
-                radial-gradient(circle at 85% 30%, rgba(139, 92, 246, 0.08), transparent 25%);
-            background-attachment: fixed;
+            position: relative;
+            transition: background-color 0.4s ease, color 0.4s ease;
         }
 
-        h1, h2, h3, h4, .brand {
+        /* Animated Gradient Mesh Background */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background: 
+                radial-gradient(circle at 15% 50%, rgba(59, 130, 246, 0.12), transparent 35%),
+                radial-gradient(circle at 85% 30%, rgba(139, 92, 246, 0.12), transparent 35%),
+                radial-gradient(circle at 50% 90%, rgba(236, 72, 153, 0.08), transparent 35%);
+            z-index: -2;
+            animation: meshShift 25s ease-in-out infinite;
+        }
+
+        [data-theme="light"] body::before {
+            background: 
+                radial-gradient(circle at 15% 50%, rgba(59, 130, 246, 0.08), transparent 35%),
+                radial-gradient(circle at 85% 30%, rgba(139, 92, 246, 0.08), transparent 35%),
+                radial-gradient(circle at 50% 90%, rgba(236, 72, 153, 0.06), transparent 35%);
+        }
+
+        @keyframes meshShift {
+            0%, 100% { transform: scale(1) rotate(0deg); opacity: 1; }
+            50% { transform: scale(1.15) rotate(3deg); opacity: 0.8; }
+        }
+
+        /* Noise Overlay */
+        body::after {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
+            opacity: 0.02;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        [data-theme="light"] body::after {
+            opacity: 0.03;
+        }
+
+        h1, h2, h3, h4, h5, h6, .brand {
             font-family: 'Outfit', sans-serif;
         }
 
-        /* =========================================
-           2. NAVIGATION BAR
-           ========================================= */
+        /* ==========================================
+           CUSTOM CURSOR
+           ========================================== */
+        .cursor-dot, .cursor-outline {
+            position: fixed;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+            z-index: 9999;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            mix-blend-mode: difference;
+        }
+
+        .cursor-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--accent-primary);
+            box-shadow: 0 0 15px var(--accent-primary);
+        }
+
+        .cursor-outline {
+            width: 40px;
+            height: 40px;
+            border: 2px solid var(--accent-secondary);
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .cursor-outline.active {
+            width: 65px;
+            height: 65px;
+            border-color: var(--accent-tertiary);
+            background: rgba(139, 92, 246, 0.15);
+        }
+
+        /* ==========================================
+           LOADING SCREEN
+           ========================================== */
+        .loader {
+            position: fixed;
+            inset: 0;
+            background: var(--bg-base);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            transition: opacity 0.8s ease, visibility 0.8s ease;
+        }
+
+        .loader.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .loader-content {
+            text-align: center;
+        }
+
+        .loader-brand {
+            font-family: 'Outfit', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 900;
+            background: var(--gradient-text);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: loaderPulse 2s ease-in-out infinite;
+            letter-spacing: -1px;
+        }
+
+        .loader-bar {
+            width: 220px;
+            height: 4px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 4px;
+            margin: 2rem auto;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .loader-bar::after {
+            content: '';
+            display: block;
+            width: 50%;
+            height: 100%;
+            background: var(--gradient-text);
+            border-radius: 4px;
+            animation: loaderSlide 1.4s ease-in-out infinite;
+        }
+
+        @keyframes loaderSlide {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(300%); }
+        }
+
+        @keyframes loaderPulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.6; transform: scale(0.98); }
+        }
+
+        .loader-text {
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* ==========================================
+           SCROLL PROGRESS BAR
+           ========================================== */
+        .scroll-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 3px;
+            background: var(--gradient-text);
+            z-index: 1001;
+            box-shadow: 0 0 10px var(--accent-primary);
+            transition: width 0.1s linear;
+        }
+
+        /* ==========================================
+           NAVIGATION
+           ========================================== */
         nav {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
-            padding: 1.2rem 8%;
+            padding: 1rem 8%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             background: var(--bg-glass);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
             border-bottom: var(--border-glass);
             z-index: 1000;
             transition: var(--transition-smooth);
         }
 
+        nav.scrolled {
+            padding: 0.7rem 8%;
+            background: var(--bg-glass);
+            box-shadow: var(--shadow-md);
+        }
+
         .brand {
             font-size: 1.8rem;
-            font-weight: 800;
+            font-weight: 900;
             color: var(--text-main);
             text-decoration: none;
             letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            transition: var(--transition-fast);
+        }
+
+        .brand:hover {
+            transform: scale(1.02);
+        }
+
+        .brand img {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid transparent;
+            background: var(--gradient-text) border-box;
+            -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
         }
 
         .brand span {
             background: var(--gradient-text);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
@@ -110,6 +595,18 @@
             font-size: 0.95rem;
             transition: var(--transition-smooth);
             position: relative;
+            padding: 0.4rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-links a::before {
+            content: attr(data-num);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--accent-primary);
+            font-weight: 600;
         }
 
         .nav-links a::after {
@@ -117,10 +614,10 @@
             position: absolute;
             width: 0;
             height: 2px;
-            bottom: -5px;
+            bottom: -2px;
             left: 0;
             background: var(--gradient-text);
-            transition: var(--transition-smooth);
+            transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .nav-links a:hover {
@@ -131,106 +628,251 @@
             width: 100%;
         }
 
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
         .nav-btn {
-            padding: 0.6rem 1.5rem;
+            padding: 0.7rem 1.8rem;
             background: transparent;
             color: var(--text-main);
             border: 1px solid rgba(255,255,255,0.2);
             border-radius: 30px;
             text-decoration: none;
-            font-weight: 500;
+            font-weight: 600;
+            font-size: 0.9rem;
             transition: var(--transition-smooth);
+            position: relative;
+            overflow: hidden;
+        }
+
+        [data-theme="light"] .nav-btn {
+            border-color: rgba(0,0,0,0.2);
+        }
+
+        .nav-btn::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: var(--gradient-text);
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: -1;
+        }
+
+        .nav-btn:hover::before {
+            transform: scaleX(1);
+            transform-origin: left;
         }
 
         .nav-btn:hover {
-            background: var(--text-main);
-            color: var(--text-dark);
-            border-color: var(--text-main);
+            border-color: transparent;
+            color: white;
         }
 
-        /* =========================================
-           3. HERO SECTION
-           ========================================= */
+        /* Theme Toggle Button */
+        .theme-toggle {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.05);
+            border: var(--border-glass);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-main);
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            position: relative;
+            overflow: hidden;
+        }
+
+        [data-theme="light"] .theme-toggle {
+            background: rgba(0,0,0,0.05);
+        }
+
+        .theme-toggle:hover {
+            background: var(--gradient-text);
+            border-color: transparent;
+            transform: rotate(180deg);
+        }
+
+        .theme-toggle i {
+            transition: var(--transition-smooth);
+        }
+
+        /* Hamburger */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            z-index: 1002;
+            padding: 10px;
+        }
+
+        .hamburger span {
+            width: 28px;
+            height: 2px;
+            background: var(--text-main);
+            transition: var(--transition-smooth);
+            border-radius: 2px;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+
+        /* ==========================================
+           HERO SECTION
+           ========================================== */
         .hero {
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 0 8%;
-            padding-top: 80px;
+            padding-top: 100px;
             position: relative;
         }
 
         .hero-text {
             flex: 1.2;
-            max-width: 700px;
+            max-width: 750px;
             z-index: 2;
         }
 
         .greeting {
-            display: inline-block;
-            padding: 0.4rem 1rem;
-            background: rgba(255,255,255,0.05);
-            border: var(--border-glass);
-            border-radius: 20px;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 0.6rem 1.2rem;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 30px;
             font-size: 0.9rem;
             font-weight: 500;
-            margin-bottom: 1.5rem;
-            color: var(--text-muted);
+            margin-bottom: 2rem;
+            color: var(--accent-success);
+            backdrop-filter: blur(10px);
+            animation: slideUp 0.8s 0.1s backwards;
+        }
+
+        .greeting::before {
+            content: '';
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--accent-success);
+            box-shadow: 0 0 15px var(--accent-success);
+            animation: blink 2s ease-in-out infinite;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0.4; transform: scale(0.9); }
         }
 
         .hero-text h1 {
-            font-size: 4.5rem;
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
             line-height: 1.1;
-            font-weight: 800;
-            margin-bottom: 1rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            opacity: 0;
+            animation: slideUp 0.8s 0.2s forwards;
+            letter-spacing: -1px;
+        }
+
+        @keyframes slideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
         }
 
         .gradient-text {
             background: var(--gradient-text);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             display: inline-block;
+            position: relative;
         }
 
         .roles {
-            font-size: 1.5rem;
-            font-weight: 400;
-            color: var(--text-muted);
-            margin-bottom: 2rem;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 2.5rem;
             display: flex;
             align-items: center;
             gap: 1rem;
             flex-wrap: wrap;
+            opacity: 0;
+            animation: slideUp 0.8s 0.4s forwards;
         }
 
-        .roles span {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .roles i {
-            font-size: 0.6rem;
+        .roles-prefix {
             color: var(--accent-primary);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.2rem;
+        }
+
+        .typed-role {
+            color: var(--text-muted);
+            position: relative;
+            font-weight: 500;
+            min-width: 200px;
+        }
+
+        .typed-role::after {
+            content: '|';
+            color: var(--accent-primary);
+            animation: cursorBlink 0.8s infinite;
+            margin-left: 3px;
+            font-weight: 700;
+        }
+
+        @keyframes cursorBlink {
+            50% { opacity: 0; }
         }
 
         .hero-desc {
-            font-size: 1.1rem;
+            font-size: 1.15rem;
             color: var(--text-muted);
             margin-bottom: 3rem;
-            max-width: 90%;
+            max-width: 95%;
             line-height: 1.8;
+            opacity: 0;
+            animation: slideUp 0.8s 0.6s forwards;
         }
 
         .hero-actions {
             display: flex;
             gap: 1.5rem;
+            flex-wrap: wrap;
+            opacity: 0;
+            animation: slideUp 0.8s 0.8s forwards;
         }
 
         .btn-primary, .btn-secondary {
-            padding: 1rem 2.5rem;
-            border-radius: 30px;
+            padding: 1.1rem 2.8rem;
+            border-radius: 35px;
             text-decoration: none;
             font-weight: 600;
             font-size: 1rem;
@@ -238,62 +880,112 @@
             display: inline-flex;
             align-items: center;
             gap: 0.8rem;
+            position: relative;
+            overflow: hidden;
+            border: none;
+            cursor: pointer;
         }
 
         .btn-primary {
             background: var(--gradient-text);
-            color: var(--text-main);
-            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.2);
-            border: none;
+            color: white;
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+        }
+
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.7s;
+        }
+
+        .btn-primary:hover::before {
+            left: 100%;
         }
 
         .btn-primary:hover {
-            box-shadow: 0 15px 30px rgba(59, 130, 246, 0.4);
-            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(59, 130, 246, 0.5);
+            transform: translateY(-4px);
         }
 
         .btn-secondary {
             background: transparent;
             color: var(--text-main);
-            border: 1px solid rgba(255,255,255,0.2);
+            border: 2px solid rgba(255,255,255,0.2);
+        }
+
+        [data-theme="light"] .btn-secondary {
+            border-color: rgba(0,0,0,0.2);
         }
 
         .btn-secondary:hover {
-            background: rgba(255,255,255,0.05);
-            border-color: rgba(255,255,255,0.5);
-            transform: translateY(-3px);
+            background: var(--bg-surface);
+            border-color: var(--accent-primary);
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
         }
 
-        /* Hero Image Container with Animations */
+        .btn-primary i, .btn-secondary i {
+            transition: transform 0.3s;
+        }
+
+        .btn-primary:hover i, .btn-secondary:hover i {
+            transform: translateX(5px);
+        }
+
+        /* Hero Image */
         .hero-visual {
             flex: 0.8;
             display: flex;
             justify-content: flex-end;
             position: relative;
+            perspective: 1500px;
         }
 
         .image-wrapper {
             position: relative;
-            width: 400px;
-            height: 400px;
+            width: 420px;
+            height: 420px;
             border-radius: 50%;
-            padding: 10px;
+            padding: 12px;
             background: var(--gradient-text);
-            animation: float 6s ease-in-out infinite;
+            animation: floatImage 6s ease-in-out infinite;
+            transform-style: preserve-3d;
+            transition: transform 0.4s ease;
         }
 
         .image-wrapper::before {
             content: '';
             position: absolute;
-            top: -20px;
-            left: -20px;
-            right: -20px;
-            bottom: -20px;
+            inset: -40px;
             background: var(--gradient-glow);
             border-radius: 50%;
-            filter: blur(40px);
+            filter: blur(60px);
             z-index: -1;
-            opacity: 0.6;
+            opacity: 0.5;
+            animation: pulseGlow 4s ease-in-out infinite;
+        }
+
+        .image-wrapper::after {
+            content: '';
+            position: absolute;
+            inset: 12px;
+            border-radius: 50%;
+            border: 2px dashed rgba(255,255,255,0.15);
+            animation: rotate 40s linear infinite;
+        }
+
+        @keyframes pulseGlow {
+            0%, 100% { opacity: 0.4; transform: scale(1); }
+            50% { opacity: 0.7; transform: scale(1.08); }
+        }
+
+        @keyframes rotate {
+            to { transform: rotate(360deg); }
         }
 
         .image-wrapper img {
@@ -301,25 +993,82 @@
             height: 100%;
             object-fit: cover;
             border-radius: 50%;
-            border: 8px solid var(--bg-base);
+            border: 10px solid var(--bg-base);
+            display: block;
+            transition: var(--transition-smooth);
         }
 
-        @keyframes float {
-            0% { transform: translateY(0px); }
+        .image-wrapper:hover img {
+            transform: scale(1.02);
+        }
+
+        /* Floating Tech Badges */
+        .floating-badge {
+            position: absolute;
+            background: var(--bg-glass);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: var(--border-glass);
+            padding: 0.7rem 1.2rem;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            box-shadow: var(--shadow-lg);
+            animation: floatBadge 5s ease-in-out infinite;
+            z-index: 10;
+        }
+
+        .floating-badge i {
+            font-size: 1.2rem;
+        }
+
+        .badge-1 {
+            top: 8%;
+            left: -12%;
+            animation-delay: 0s;
+        }
+
+        .badge-1 i { color: #e34c26; }
+
+        .badge-2 {
+            bottom: 22%;
+            right: -18%;
+            animation-delay: 1.8s;
+        }
+
+        .badge-2 i { color: #f7df1e; }
+
+        .badge-3 {
+            bottom: -3%;
+            left: 8%;
+            animation-delay: 3.5s;
+        }
+
+        .badge-3 i { color: var(--accent-success); }
+
+        @keyframes floatBadge {
+            0%, 100% { transform: translateY(0); }
             50% { transform: translateY(-20px); }
-            100% { transform: translateY(0px); }
         }
 
-        /* =========================================
-           4. SECTIONS COMMON STYLES
-           ========================================= */
+        @keyframes floatImage {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-25px); }
+        }
+
+        /* ==========================================
+           SECTIONS COMMON
+           ========================================== */
         section {
             padding: 8rem 8%;
             position: relative;
         }
 
         .section-header {
-            margin-bottom: 4rem;
+            margin-bottom: 5rem;
             text-align: left;
         }
 
@@ -327,31 +1076,78 @@
             color: var(--accent-primary);
             font-size: 0.9rem;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            letter-spacing: 3px;
             font-weight: 600;
             margin-bottom: 1rem;
-            display: block;
+            display: inline-flex;
+            align-items: center;
+            gap: 1.2rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .section-subtitle::before {
+            content: '';
+            width: 40px;
+            height: 2px;
+            background: var(--accent-primary);
         }
 
         .section-title {
-            font-size: 3rem;
+            font-size: clamp(2rem, 4vw, 3.5rem);
             font-weight: 800;
+            line-height: 1.2;
+            letter-spacing: -0.5px;
         }
 
-        /* =========================================
-           5. ABOUT SECTION
-           ========================================= */
+        /* Scroll Reveal */
+        .reveal {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 1s cubic-bezier(0.4, 0, 0.2, 1), transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .reveal-left {
+            opacity: 0;
+            transform: translateX(-60px);
+            transition: opacity 1s cubic-bezier(0.4, 0, 0.2, 1), transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .reveal-left.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .reveal-right {
+            opacity: 0;
+            transform: translateX(60px);
+            transition: opacity 1s cubic-bezier(0.4, 0, 0.2, 1), transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .reveal-right.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* ==========================================
+           ABOUT SECTION
+           ========================================== */
         .about-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 4rem;
+            gap: 5rem;
             align-items: center;
         }
 
         .about-text p {
             color: var(--text-muted);
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.8rem;
             font-size: 1.1rem;
+            line-height: 1.9;
         }
 
         .stats-container {
@@ -363,44 +1159,75 @@
 
         .stat-box {
             background: var(--bg-surface);
-            padding: 2rem;
-            border-radius: 16px;
+            padding: 2.2rem;
+            border-radius: 20px;
             border: var(--border-glass);
             transition: var(--transition-smooth);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.1), transparent);
+            transition: left 1s;
+        }
+
+        .stat-box:hover::before {
+            left: 100%;
         }
 
         .stat-box:hover {
-            border-color: rgba(139, 92, 246, 0.4);
-            transform: translateY(-5px);
+            border-color: var(--border-accent);
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
         }
 
         .stat-icon {
-            font-size: 2rem;
-            margin-bottom: 1rem;
+            font-size: 2.2rem;
+            margin-bottom: 1.2rem;
             background: var(--gradient-text);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
-        .stat-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
+        .stat-number {
+            font-size: 2.8rem;
+            font-weight: 900;
             font-family: 'Outfit', sans-serif;
+            background: var(--gradient-text);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1;
+            margin-bottom: 0.6rem;
+        }
+
+        .stat-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 0.4rem;
         }
 
         .stat-desc {
             font-size: 0.9rem;
             color: var(--text-muted);
+            line-height: 1.5;
         }
 
-        /* =========================================
-           6. SKILLS & EXPERTISE
-           ========================================= */
+        /* ==========================================
+           SKILLS SECTION
+           ========================================== */
         .skills-wrapper {
             background: var(--bg-surface);
             border: var(--border-glass);
-            border-radius: 24px;
+            border-radius: 28px;
             padding: 4rem;
             position: relative;
             overflow: hidden;
@@ -409,21 +1236,27 @@
         .skills-wrapper::after {
             content: '';
             position: absolute;
-            top: 0;
-            right: 0;
-            width: 300px;
-            height: 300px;
+            top: -50%;
+            right: -10%;
+            width: 400px;
+            height: 400px;
             background: var(--accent-secondary);
-            filter: blur(150px);
-            opacity: 0.1;
+            filter: blur(180px);
+            opacity: 0.12;
             border-radius: 50%;
             pointer-events: none;
+            animation: blobMove 10s ease-in-out infinite;
+        }
+
+        @keyframes blobMove {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(-40px, 40px) scale(1.3); }
         }
 
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2.5rem;
         }
 
         .skill-item {
@@ -439,62 +1272,114 @@
         }
 
         .skill-name {
-            font-weight: 500;
-            font-size: 1.1rem;
+            font-weight: 600;
+            font-size: 1.05rem;
+        }
+
+        .skill-pct {
+            color: var(--accent-primary);
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 600;
+            font-size: 0.95rem;
         }
 
         .skill-bar-bg {
             width: 100%;
-            height: 6px;
-            background: rgba(255,255,255,0.1);
+            height: 10px;
+            background: rgba(255,255,255,0.08);
             border-radius: 10px;
             overflow: hidden;
+            position: relative;
+        }
+
+        [data-theme="light"] .skill-bar-bg {
+            background: rgba(0,0,0,0.08);
         }
 
         .skill-bar-fill {
             height: 100%;
             background: var(--gradient-text);
             border-radius: 10px;
+            width: 0;
             position: relative;
+            transition: width 1.8s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.6);
         }
 
-        /* Widths defined directly in HTML via inline style for semantic structure */
+        .skill-bar-fill::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 12px;
+            height: 100%;
+            background: white;
+            border-radius: 50%;
+            filter: blur(4px);
+            animation: shine 2.5s infinite;
+        }
 
-        /* =========================================
-           7. PROJECTS PORTFOLIO
-           ========================================= */
+        @keyframes shine {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 1; }
+        }
+
+        /* ==========================================
+           PROJECTS
+           ========================================== */
         .projects-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+            gap: 2.8rem;
         }
 
         .project-card {
             background: var(--bg-surface);
             border: var(--border-glass);
-            border-radius: 20px;
-            padding: 2.5rem;
+            border-radius: 24px;
+            padding: 2.8rem;
             transition: var(--transition-smooth);
             position: relative;
             z-index: 1;
-        }
-
-        .project-card:hover {
-            transform: translateY(-10px);
-            border-color: rgba(59, 130, 246, 0.3);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            overflow: hidden;
         }
 
         .project-card::before {
             content: '';
             position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.08), transparent);
+            opacity: 0;
+            transition: opacity 0.5s;
+            border-radius: 24px;
+            z-index: -1;
+        }
+
+        .project-card::after {
+            content: '';
+            position: absolute;
             top: 0;
             left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(180deg, rgba(255,255,255,0.02) 0%, rgba(255,255,255,0) 100%);
-            border-radius: 20px;
-            z-index: -1;
+            right: 0;
+            height: 4px;
+            background: var(--gradient-text);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .project-card:hover {
+            transform: translateY(-12px);
+            border-color: var(--border-accent);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .project-card:hover::before {
+            opacity: 1;
+        }
+
+        .project-card:hover::after {
+            transform: scaleX(1);
         }
 
         .project-top {
@@ -505,109 +1390,252 @@
         }
 
         .folder-icon {
-            font-size: 2.5rem;
+            font-size: 2.8rem;
             color: var(--accent-primary);
+            transition: var(--transition-smooth);
+        }
+
+        .project-card:hover .folder-icon {
+            transform: scale(1.15) rotate(-8deg);
+            color: var(--accent-secondary);
         }
 
         .project-links a {
             color: var(--text-muted);
-            font-size: 1.2rem;
-            margin-left: 1rem;
+            font-size: 1.3rem;
+            margin-left: 1.2rem;
             transition: var(--transition-smooth);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.05);
+        }
+
+        [data-theme="light"] .project-links a {
+            background: rgba(0,0,0,0.05);
         }
 
         .project-links a:hover {
-            color: var(--text-main);
+            color: var(--accent-primary);
+            transform: translateY(-5px) rotate(10deg);
+            background: rgba(59, 130, 246, 0.1);
         }
 
         .project-card h3 {
-            font-size: 1.4rem;
-            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            margin-bottom: 1.2rem;
+            transition: color 0.3s;
+            font-weight: 700;
+        }
+
+        .project-card:hover h3 {
+            color: var(--accent-primary);
         }
 
         .project-card p {
             color: var(--text-muted);
-            font-size: 0.95rem;
-            margin-bottom: 2rem;
-            line-height: 1.6;
+            font-size: 1rem;
+            margin-bottom: 2.2rem;
+            line-height: 1.8;
         }
 
         .project-tech {
             display: flex;
             flex-wrap: wrap;
-            gap: 1rem;
+            gap: 0.8rem;
             list-style: none;
-            font-family: 'Outfit', sans-serif;
+            font-family: 'JetBrains Mono', monospace;
             font-size: 0.85rem;
             color: var(--accent-secondary);
         }
 
-        /* =========================================
-           8. FOOTER & CONTACT
-           ========================================= */
+        .project-tech li {
+            padding: 0.4rem 1rem;
+            background: rgba(139, 92, 246, 0.1);
+            border-radius: 20px;
+            border: 1px solid rgba(139, 92, 246, 0.25);
+            transition: var(--transition-fast);
+            font-weight: 500;
+        }
+
+        .project-tech li:hover {
+            background: rgba(139, 92, 246, 0.2);
+            transform: translateY(-3px);
+            border-color: rgba(139, 92, 246, 0.5);
+        }
+
+        /* ==========================================
+           CONTACT / FOOTER
+           ========================================== */
         .footer {
             border-top: var(--border-glass);
-            padding: 4rem 8%;
+            padding: 7rem 8% 4rem;
             text-align: center;
             background: var(--bg-surface);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 700px;
+            height: 700px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.1), transparent);
+            filter: blur(100px);
+            z-index: 0;
+        }
+
+        [data-theme="light"] .footer::before {
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.08), transparent);
+        }
+
+        .footer-content {
+            position: relative;
+            z-index: 1;
         }
 
         .footer-content h2 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            margin-bottom: 1.5rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
         }
 
-        .footer-content p {
+        .footer-content > p {
             color: var(--text-muted);
-            margin-bottom: 2.5rem;
-            max-width: 500px;
+            margin-bottom: 3.5rem;
+            max-width: 550px;
             margin-left: auto;
             margin-right: auto;
+            font-size: 1.1rem;
+            line-height: 1.8;
         }
 
         .social-grid {
             display: flex;
             justify-content: center;
-            gap: 2rem;
-            margin-bottom: 3rem;
+            gap: 1.5rem;
+            margin-bottom: 3.5rem;
+            flex-wrap: wrap;
         }
 
         .social-btn {
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             background: rgba(255,255,255,0.05);
             display: flex;
             align-items: center;
             justify-content: center;
             color: var(--text-main);
-            font-size: 1.2rem;
+            font-size: 1.4rem;
             text-decoration: none;
             border: var(--border-glass);
-            transition: var(--transition-smooth);
+            transition: var(--transition-bounce);
+            position: relative;
+            overflow: hidden;
+        }
+
+        [data-theme="light"] .social-btn {
+            background: rgba(0,0,0,0.05);
+        }
+
+        .social-btn::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: var(--gradient-text);
+            transform: scale(0);
+            transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+            border-radius: 50%;
+            z-index: -1;
+        }
+
+        .social-btn:hover::before {
+            transform: scale(1);
         }
 
         .social-btn:hover {
-            background: var(--gradient-text);
             border-color: transparent;
-            transform: translateY(-5px);
+            transform: translateY(-10px) rotate(360deg);
+            box-shadow: var(--shadow-glow);
+            color: white;
         }
 
         .copyright {
             color: var(--text-muted);
-            font-size: 0.9rem;
-            padding-top: 2rem;
+            font-size: 0.95rem;
+            padding-top: 3.5rem;
             border-top: 1px solid rgba(255,255,255,0.05);
+            margin-top: 3.5rem;
         }
 
-        /* =========================================
-           9. RESPONSIVE MEDIA QUERIES
-           ========================================= */
+        [data-theme="light"] .copyright {
+            border-top-color: rgba(0,0,0,0.05);
+        }
+
+        .copyright .heart {
+            color: var(--accent-tertiary);
+            animation: heartbeat 1.8s ease-in-out infinite;
+            display: inline-block;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            25% { transform: scale(1.2); }
+            50% { transform: scale(1); }
+            75% { transform: scale(1.2); }
+        }
+
+        /* ==========================================
+           BACK TO TOP
+           ========================================== */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            background: var(--gradient-text);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition-smooth);
+            z-index: 99;
+            box-shadow: var(--shadow-glow);
+            font-size: 1.2rem;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-8px) scale(1.1);
+            box-shadow: 0 20px 40px rgba(59, 130, 246, 0.5);
+        }
+
+        /* ==========================================
+           RESPONSIVE
+           ========================================== */
         @media (max-width: 1024px) {
             .hero {
                 flex-direction: column-reverse;
                 text-align: center;
-                padding-top: 120px;
+                padding-top: 130px;
                 gap: 4rem;
             }
             .hero-text {
@@ -615,244 +1643,705 @@
                 flex-direction: column;
                 align-items: center;
             }
-            .roles {
-                justify-content: center;
-            }
             .about-grid {
                 grid-template-columns: 1fr;
+                gap: 4rem;
             }
             .image-wrapper {
-                width: 320px;
-                height: 320px;
+                width: 340px;
+                height: 340px;
+            }
+            .floating-badge {
+                display: none;
             }
         }
 
         @media (max-width: 768px) {
+            body {
+                cursor: auto;
+            }
+            .cursor-dot, .cursor-outline {
+                display: none;
+            }
             nav {
                 padding: 1rem 5%;
             }
+            nav.scrolled {
+                padding: 0.7rem 5%;
+            }
+            .hamburger {
+                display: flex;
+            }
             .nav-links {
-                display: none; /* In a real app, this would be a hamburger menu */
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 75%;
+                height: 100vh;
+                background: var(--bg-surface);
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2.5rem;
+                transition: right 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+                border-left: var(--border-glass);
+                box-shadow: var(--shadow-lg);
+            }
+            .nav-links.active {
+                right: 0;
+            }
+            .nav-btn {
+                display: none;
             }
             .hero-text h1 {
-                font-size: 3rem;
+                font-size: 2.5rem;
+            }
+            .section-title {
+                font-size: 2rem;
+            }
+            .roles {
+                font-size: 1.1rem;
+                justify-content: center;
+            }
+            .hero-desc {
+                font-size: 1rem;
             }
             section {
                 padding: 5rem 5%;
             }
             .skills-wrapper {
+                padding: 2.5rem;
+            }
+            .hero-actions {
+                flex-direction: column;
+                width: 100%;
+            }
+            .btn-primary, .btn-secondary {
+                justify-content: center;
+                width: 100%;
+            }
+            .image-wrapper {
+                width: 280px;
+                height: 280px;
+            }
+            .footer-content h2 {
+                font-size: 2rem;
+            }
+            .stats-container {
+                grid-template-columns: 1fr;
+            }
+            .project-card {
                 padding: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-text h1 {
+                font-size: 2rem;
+            }
+            .image-wrapper {
+                width: 240px;
+                height: 240px;
+            }
+            .social-btn {
+                width: 50px;
+                height: 50px;
+                font-size: 1.2rem;
+            }
+        }
+
+        /* Reduced Motion Support */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
             }
         }
     </style>
 </head>
 <body>
 
+    <!-- LOADING SCREEN -->
+    <div class="loader" id="loader" aria-hidden="true" role="status">
+        <div class="loader-content">
+            <div class="loader-brand">Sushant.</div>
+            <div class="loader-bar"></div>
+            <div class="loader-text">Loading experience...</div>
+        </div>
+    </div>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-outline" aria-hidden="true"></div>
+
+    <!-- SCROLL PROGRESS -->
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
     <!-- NAVIGATION -->
-    <nav>
-        <a href="#" class="brand">Sushant<span>.</span></a>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#expertise">Expertise</a></li>
-            <li><a href="#work">Work</a></li>
+    <nav aria-label="Main navigation">
+        <a href="#top" class="brand" aria-label="Sushant Jha - Home">
+            <img src="https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg" alt="Sushant Jha Logo" width="38" height="38">
+            Sushant<span>.</span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about" data-num="01.">About</a></li>
+            <li><a href="#expertise" data-num="02.">Expertise</a></li>
+            <li><a href="#work" data-num="03.">Work</a></li>
+            <li><a href="#contact" data-num="04.">Contact</a></li>
         </ul>
-        <a href="#contact" class="nav-btn">Get In Touch</a>
+        <div class="nav-actions">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <a href="#contact" class="nav-btn">Get In Touch</a>
+            <div class="hamburger" id="hamburger" aria-label="Menu" role="button" tabindex="0">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
     </nav>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <div class="hero-text">
-            <div class="greeting">Based in Chandragiri, Nepal</div>
-            <h1>Hi, I am <br><span class="gradient-text">Sushant Jha</span></h1>
-            <div class="roles">
-                Web Developer <span><i class="fas fa-circle"></i></span> 
-                BIT Student <span><i class="fas fa-circle"></i></span> 
-                Website Administrator
-            </div>
-            <p class="hero-desc">
-                Merging deep analytical foundations in physics and mathematics with modern web technologies. I specialize in engineering bespoke digital platforms, orchestrating robust server configurations, and pioneering brand identities from the ground up.
-            </p>
-            <div class="hero-actions">
-                <a href="#work" class="btn-primary">
-                    View Portfolio <i class="fas fa-arrow-right"></i>
-                </a>
-                <a href="#contact" class="btn-secondary">
-                    Contact Me
-                </a>
-            </div>
-        </div>
-        <div class="hero-visual">
-            <div class="image-wrapper">
-                <!-- Direct load of the raw github profile image -->
-                <img src="https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpeg" alt="Sushant Jha - Professional Portrait">
-            </div>
-        </div>
-    </section>
+    <main id="top">
 
-    <!-- ABOUT SECTION -->
-    <section id="about">
-        <div class="section-header">
-            <span class="section-subtitle">Who I Am</span>
-            <h2 class="section-title">Analytical Mind. <br><span class="gradient-text">Creative Execution.</span></h2>
-        </div>
-        <div class="about-grid">
-            <div class="about-text">
-                <p>Currently pursuing my Bachelor of Information Technology (BIT), my approach to software development and website administration is heavily influenced by my academic background in physics and mathematical logic. I don't just write code; I architect systems that are logical, highly optimized, and scalable.</p>
-                <p>Whether I am troubleshooting intricate indexing rules in Google Search Console, establishing the digital infrastructure for corporate entities, or designing custom interactive user interfaces, my focus is always on delivering flawless, ad-free, and high-performance digital experiences.</p>
-            </div>
-            <div class="stats-container">
-                <div class="stat-box">
-                    <i class="fas fa-server stat-icon"></i>
-                    <h3 class="stat-title">Platform Admin</h3>
-                    <p class="stat-desc">Expert in indexing, SEO, and technical troubleshooting.</p>
+        <!-- HERO SECTION -->
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-text">
+                <div class="greeting">
+                    <span>Available for Hire · Kathmandu, Nepal</span>
                 </div>
-                <div class="stat-box">
-                    <i class="fas fa-briefcase stat-icon"></i>
-                    <h3 class="stat-title">Business Dev</h3>
-                    <p class="stat-desc">Crafting digital identities for emerging enterprises.</p>
+                <h1 id="hero-heading">
+                    Hi, I'm <br>
+                    <span class="gradient-text">Sushant Jha</span>
+                </h1>
+                <div class="roles">
+                    <span class="roles-prefix">&gt;</span>
+                    <span class="typed-role" id="typedRole">Front-End Developer</span>
+                </div>
+                <p class="hero-desc">
+                    <strong>Best web developer in Kathmandu</strong> offering <strong>affordable website development</strong> services. I merge deep analytical foundations in physics and mathematics with modern web technologies. Specialized in engineering bespoke digital platforms, orchestrating robust server configurations, and delivering premium websites at the best prices.
+                </p>
+                <div class="hero-actions">
+                    <a href="#work" class="btn-primary">
+                        View Portfolio <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    </a>
+                    <a href="#contact" class="btn-secondary">
+                        <i class="far fa-envelope" aria-hidden="true"></i> Hire Me
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- EXPERTISE / SKILLS SECTION -->
-    <section id="expertise">
-        <div class="section-header">
-            <span class="section-subtitle">Technical Arsenal</span>
-            <h2 class="section-title">Core <span class="gradient-text">Proficiencies</span></h2>
-        </div>
-        <div class="skills-wrapper">
-            <div class="skills-grid">
-                
-                <div class="skill-item">
-                    <div class="skill-header">
-                        <span class="skill-name">HTML5 / CSS3 (UI/UX)</span>
-                        <span class="skill-pct">95%</span>
+            <div class="hero-visual">
+                <div class="image-wrapper" id="heroImage">
+                    <img src="https://raw.githubusercontent.com/sushantjha-np/SushantJha/main/Sushant%20Jha.jpg" 
+                         alt="Sushant Jha - Best Web Developer in Kathmandu Nepal, Front-End Developer and BIT Student offering affordable website development services" 
+                         width="420" 
+                         height="420"
+                         loading="eager">
+                    <div class="floating-badge badge-1">
+                        <i class="fab fa-html5" aria-hidden="true"></i>
+                        <span>HTML5</span>
                     </div>
-                    <div class="skill-bar-bg">
-                        <div class="skill-bar-fill" style="width: 95%;"></div>
+                    <div class="floating-badge badge-2">
+                        <i class="fab fa-js" aria-hidden="true"></i>
+                        <span>JavaScript</span>
                     </div>
-                </div>
-
-                <div class="skill-item">
-                    <div class="skill-header">
-                        <span class="skill-name">JavaScript & DOM Logic</span>
-                        <span class="skill-pct">85%</span>
-                    </div>
-                    <div class="skill-bar-bg">
-                        <div class="skill-bar-fill" style="width: 85%;"></div>
+                    <div class="floating-badge badge-3">
+                        <i class="fas fa-search" aria-hidden="true"></i>
+                        <span>SEO Expert</span>
                     </div>
                 </div>
-
-                <div class="skill-item">
-                    <div class="skill-header">
-                        <span class="skill-name">Google Search Console & SEO</span>
-                        <span class="skill-pct">90%</span>
-                    </div>
-                    <div class="skill-bar-bg">
-                        <div class="skill-bar-fill" style="width: 90%;"></div>
-                    </div>
-                </div>
-
-                <div class="skill-item">
-                    <div class="skill-header">
-                        <span class="skill-name">Open-Source Technologies</span>
-                        <span class="skill-pct">88%</span>
-                    </div>
-                    <div class="skill-bar-bg">
-                        <div class="skill-bar-fill" style="width: 88%;"></div>
-                    </div>
-                </div>
-
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- WORK / PROJECTS SECTION -->
-    <section id="work">
-        <div class="section-header">
-            <span class="section-subtitle">Featured Work</span>
-            <h2 class="section-title">Projects & <span class="gradient-text">Ventures</span></h2>
-        </div>
-        
-        <div class="projects-grid">
-            
-            <!-- Project 1 -->
-            <div class="project-card">
-                <div class="project-top">
-                    <i class="far fa-folder-open folder-icon"></i>
-                    <div class="project-links">
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        <!-- ABOUT SECTION -->
+        <section id="about" aria-labelledby="about-heading">
+            <div class="section-header reveal">
+                <span class="section-subtitle">01 — Who I Am</span>
+                <h2 class="section-title" id="about-heading">
+                    Analytical Mind. <br>
+                    <span class="gradient-text">Creative Execution.</span>
+                </h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal-left">
+                    <p>
+                        Currently pursuing my <strong>Bachelor of Information Technology (BIT)</strong>, my approach to software development and website administration is heavily influenced by my academic background in physics and mathematical logic. I don't just write code; I architect systems that are logical, highly optimized, and scalable.
+                    </p>
+                    <p>
+                        Whether I'm troubleshooting intricate indexing rules in <strong>Google Search Console</strong>, establishing the digital infrastructure for corporate entities, or designing custom interactive user interfaces, my focus is always on delivering <strong>flawless, ad-free, and high-performance digital experiences</strong>. As a <strong>professional web developer in Kathmandu</strong>, I ensure every project meets the highest standards of quality and performance.
+                    </p>
+                    <p>
+                        Looking for the <strong>best website developer at best price</strong>? You've found the right place. I offer <strong>affordable web development services</strong> without compromising on quality, making professional websites accessible to businesses of all sizes in Nepal.
+                    </p>
+                </div>
+                <div class="stats-container reveal-right">
+                    <div class="stat-box">
+                        <div class="stat-number" data-target="15">0</div>
+                        <i class="fas fa-server stat-icon" aria-hidden="true"></i>
+                        <h3 class="stat-title">Projects Delivered</h3>
+                        <p class="stat-desc">End-to-end web solutions</p>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number" data-target="98">0</div>
+                        <i class="fas fa-chart-line stat-icon" aria-hidden="true"></i>
+                        <h3 class="stat-title">SEO Performance</h3>
+                        <p class="stat-desc">Average optimization score</p>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number" data-target="3">0</div>
+                        <i class="fas fa-award stat-icon" aria-hidden="true"></i>
+                        <h3 class="stat-title">Years Experience</h3>
+                        <p class="stat-desc">In web development</p>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number" data-target="24">0</div>
+                        <i class="fas fa-headset stat-icon" aria-hidden="true"></i>
+                        <h3 class="stat-title">Support Hours</h3>
+                        <p class="stat-desc">Responsive assistance</p>
                     </div>
                 </div>
-                <h3>jhasushant.com.np</h3>
-                <p>Architected and deployed a highly customized personal digital platform. Executed rigorous technical search optimization and web indexing configurations to ensure maximum organic visibility and seamless server-side performance.</p>
-                <ul class="project-tech">
-                    <li>Web Administration</li>
-                    <li>SEO Optimization</li>
-                    <li>GSC Integration</li>
-                </ul>
             </div>
+        </section>
 
-            <!-- Project 2 -->
-            <div class="project-card">
-                <div class="project-top">
-                    <i class="far fa-folder-open folder-icon"></i>
-                    <div class="project-links">
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        <!-- EXPERTISE / SKILLS SECTION -->
+        <section id="expertise" aria-labelledby="expertise-heading">
+            <div class="section-header reveal">
+                <span class="section-subtitle">02 — Technical Arsenal</span>
+                <h2 class="section-title" id="expertise-heading">
+                    Core <span class="gradient-text">Proficiencies</span>
+                </h2>
+            </div>
+            <div class="skills-wrapper reveal">
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML5 / CSS3 (UI/UX)</span>
+                            <span class="skill-pct">95%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript & DOM Logic</span>
+                            <span class="skill-pct">85%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Google Search Console</span>
+                            <span class="skill-pct">90%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">SEO Optimization</span>
+                            <span class="skill-pct">92%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Open-Source Tech</span>
+                            <span class="skill-pct">88%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="88"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Web Administration</span>
+                            <span class="skill-pct">93%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" data-width="93"></div>
+                        </div>
                     </div>
                 </div>
-                <h3>Sundar Sewa & Shop Architecture</h3>
-                <p>Spearheaded the holistic business identity and digital infrastructure for emerging retail service enterprises. Developed corporate promotional materials, custom logos, and streamlined online recruitment portals for local hiring.</p>
-                <ul class="project-tech">
-                    <li>Brand Identity</li>
-                    <li>Corporate UI/UX</li>
-                    <li>Digital Strategy</li>
-                </ul>
             </div>
+        </section>
 
-            <!-- Project 3 -->
-            <div class="project-card">
-                <div class="project-top">
-                    <i class="far fa-folder-open folder-icon"></i>
-                    <div class="project-links">
-                        <a href="#"><i class="fab fa-github"></i></a>
+        <!-- WORK / PROJECTS SECTION -->
+        <section id="work" aria-labelledby="work-heading">
+            <div class="section-header reveal">
+                <span class="section-subtitle">03 — Featured Work</span>
+                <h2 class="section-title" id="work-heading">
+                    Projects & <span class="gradient-text">Ventures</span>
+                </h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card reveal" aria-labelledby="project1-title">
+                    <div class="project-top">
+                        <i class="far fa-folder-open folder-icon" aria-hidden="true"></i>
+                        <div class="project-links">
+                            <a href="https://jhasushant.com.np" aria-label="Visit jhasushant.com.np" target="_blank" rel="noopener">
+                                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <h3>Public Service Interface</h3>
-                <p>Engineered interactive, dynamic practice quiz environments precisely mapped to the Public Service Commission (Lok Sewa) syllabus. Utilized advanced front-end scripting to simulate high-stakes testing conditions for users.</p>
-                <ul class="project-tech">
-                    <li>JavaScript</li>
-                    <li>HTML/CSS</li>
-                    <li>Data Structuring</li>
-                </ul>
+                    <h3 id="project1-title">jhasushant.com.np</h3>
+                    <p>
+                        Architected and deployed a highly customized personal digital platform. Executed rigorous technical search optimization and web indexing configurations to ensure maximum organic visibility and seamless server-side performance.
+                    </p>
+                    <ul class="project-tech">
+                        <li>Web Administration</li>
+                        <li>SEO Optimization</li>
+                        <li>GSC Integration</li>
+                    </ul>
+                </article>
+                <article class="project-card reveal" aria-labelledby="project2-title" style="transition-delay: 0.15s;">
+                    <div class="project-top">
+                        <i class="far fa-folder-open folder-icon" aria-hidden="true"></i>
+                        <div class="project-links">
+                            <a href="#" aria-label="Visit Sundar Sewa" target="_blank" rel="noopener">
+                                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 id="project2-title">Sundar Sewa & Shop Architecture</h3>
+                    <p>
+                        Spearheaded the holistic business identity and digital infrastructure for emerging retail service enterprises. Developed corporate promotional materials, custom logos, and streamlined online recruitment portals for local hiring.
+                    </p>
+                    <ul class="project-tech">
+                        <li>Brand Identity</li>
+                        <li>Corporate UI/UX</li>
+                        <li>Digital Strategy</li>
+                    </ul>
+                </article>
+                <article class="project-card reveal" aria-labelledby="project3-title" style="transition-delay: 0.3s;">
+                    <div class="project-top">
+                        <i class="far fa-folder-open folder-icon" aria-hidden="true"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/sushantjha-np" aria-label="View on GitHub" target="_blank" rel="noopener">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 id="project3-title">Public Service Interface</h3>
+                    <p>
+                        Engineered interactive, dynamic practice quiz environments precisely mapped to the Public Service Commission (Lok Sewa) syllabus. Utilized advanced front-end scripting to simulate high-stakes testing conditions for users.
+                    </p>
+                    <ul class="project-tech">
+                        <li>JavaScript</li>
+                        <li>HTML/CSS</li>
+                        <li>Data Structuring</li>
+                    </ul>
+                </article>
             </div>
+        </section>
 
-        </div>
-    </section>
+    </main>
 
     <!-- FOOTER / CONTACT -->
-    <footer id="contact" class="footer">
+    <footer id="contact" class="footer" role="contentinfo">
         <div class="footer-content">
-            <span class="section-subtitle" style="justify-content: center; display: flex;">What's Next?</span>
-            <h2>Let's Build Something Great.</h2>
-            <p>Whether you have a question, a project in mind, or just want to say hi, my inbox is always open. I am currently available for new opportunities.</p>
+            <span class="section-subtitle" style="justify-content: center;">04 — What's Next?</span>
+            <h2 class="reveal">
+                Let's Build Something <span class="gradient-text">Great.</span>
+            </h2>
+            <p class="reveal">
+                Whether you have a question, a project in mind, or just want to say hi, my inbox is always open. I'm currently available for new opportunities and ready to help you build the perfect website at the best price.
+            </p>
             
-            <div class="social-grid">
-                <a href="https://github.com/sushantjha-np" class="social-btn"><i class="fab fa-github"></i></a>
-                <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
-                <a href="mailto:hello@jhasushant.com.np" class="social-btn"><i class="far fa-envelope"></i></a>
+            <div class="social-grid reveal">
+                <a href="https://github.com/sushantjha-np" class="social-btn" aria-label="GitHub profile" target="_blank" rel="noopener">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sushantjha-np" class="social-btn" aria-label="LinkedIn profile" target="_blank" rel="noopener">
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:jhasushant60@gmail.com" class="social-btn" aria-label="Send email">
+                    <i class="far fa-envelope" aria-hidden="true"></i>
+                </a>
+                <a href="https://jhasushant.com.np" class="social-btn" aria-label="Visit website">
+                    <i class="fas fa-globe" aria-hidden="true"></i>
+                </a>
             </div>
             
-            <a href="mailto:hello@jhasushant.com.np" class="btn-primary" style="margin-bottom: 3rem;">
-                Say Hello <i class="fas fa-paper-plane"></i>
+            <a href="mailto:jhasushant60@gmail.com" class="btn-primary reveal">
+                Say Hello <i class="fas fa-paper-plane" aria-hidden="true"></i>
             </a>
             
             <div class="copyright">
-                &copy; 2026 Sushant Jha. Built with precision in Nepal.
+                <p>&copy; 2026 Sushant Jha. Crafted with <span class="heart">♥</span> in Kathmandu, Nepal. Built with precision for the best user experience.</p>
+                <p style="margin-top: 0.8rem; font-size: 0.85rem;">Best Web Developer in Kathmandu | Affordable Website Development Nepal</p>
             </div>
         </div>
     </footer>
 
+    <!-- BACK TO TOP -->
+    <a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </a>
+
+    <script>
+        // ==========================================
+        // LOADING SCREEN
+        // ==========================================
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                const loader = document.getElementById('loader');
+                loader.classList.add('hidden');
+                setTimeout(() => {
+                    loader.style.display = 'none';
+                }, 800);
+            }, 1000);
+        });
+
+        // ==========================================
+        // THEME TOGGLE (Dark/Light Mode)
+        // ==========================================
+        const themeToggle = document.getElementById('themeToggle');
+        const html = document.documentElement;
+        const themeIcon = themeToggle.querySelector('i');
+
+        // Check for saved theme preference or system preference
+        const currentTheme = localStorage.getItem('theme') || 
+            (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        
+        html.setAttribute('data-theme', currentTheme);
+        updateThemeIcon(currentTheme);
+
+        themeToggle.addEventListener('click', () => {
+            const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateThemeIcon(newTheme);
+        });
+
+        function updateThemeIcon(theme) {
+            if (theme === 'dark') {
+                themeIcon.className = 'fas fa-moon';
+            } else {
+                themeIcon.className = 'fas fa-sun';
+            }
+        }
+
+        // ==========================================
+        // CUSTOM CURSOR
+        // ==========================================
+        const cursorDot = document.querySelector('.cursor-dot');
+        const cursorOutline = document.querySelector('.cursor-outline');
+
+        if (window.matchMedia('(pointer: fine)').matches && !('ontouchstart' in window)) {
+            window.addEventListener('mousemove', (e) => {
+                cursorDot.style.left = e.clientX + 'px';
+                cursorDot.style.top = e.clientY + 'px';
+                cursorOutline.animate({
+                    left: e.clientX + 'px',
+                    top: e.clientY + 'px'
+                }, { duration: 300, fill: 'forwards' });
+            });
+
+            document.querySelectorAll('a, button, .project-card, .stat-box, .hamburger').forEach(el => {
+                el.addEventListener('mouseenter', () => cursorOutline.classList.add('active'));
+                el.addEventListener('mouseleave', () => cursorOutline.classList.remove('active'));
+            });
+        }
+
+        // ==========================================
+        // SCROLL PROGRESS BAR
+        // ==========================================
+        const scrollProgress = document.getElementById('scrollProgress');
+        const nav = document.querySelector('nav');
+        const backToTop = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            const scrollTop = document.documentElement.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (scrollTop / scrollHeight) * 100;
+            scrollProgress.style.width = scrolled + '%';
+
+            nav.classList.toggle('scrolled', scrollTop > 50);
+            backToTop.classList.toggle('visible', scrollTop > 500);
+        });
+
+        // ==========================================
+        // HAMBURGER MENU
+        // ==========================================
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // ==========================================
+        // TYPED ROLES ANIMATION
+        // ==========================================
+        const roles = [
+            'Front-End Developer',
+            'BIT Student',
+            'Website Administrator',
+            'SEO Specialist',
+            'UI/UX Enthusiast',
+            'Best Price Developer'
+        ];
+        const typedElement = document.getElementById('typedRole');
+        let roleIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function typeRole() {
+            const currentRole = roles[roleIndex];
+            if (isDeleting) {
+                typedElement.textContent = currentRole.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typedElement.textContent = currentRole.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            let typeSpeed = isDeleting ? 50 : 100;
+
+            if (!isDeleting && charIndex === currentRole.length) {
+                typeSpeed = 2500;
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                roleIndex = (roleIndex + 1) % roles.length;
+                typeSpeed = 400;
+            }
+
+            setTimeout(typeRole, typeSpeed);
+        }
+        typeRole();
+
+        // ==========================================
+        // SCROLL REVEAL (Intersection Observer)
+        // ==========================================
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+
+                    // Animate skill bars
+                    if (entry.target.querySelector('.skill-bar-fill')) {
+                        entry.target.querySelectorAll('.skill-bar-fill').forEach(bar => {
+                            bar.style.width = bar.dataset.width + '%';
+                        });
+                    }
+
+                    // Animate counters
+                    if (entry.target.classList.contains('stats-container')) {
+                        entry.target.querySelectorAll('.stat-number').forEach(counter => {
+                            const target = +counter.dataset.target;
+                            const increment = target / 60;
+                            let current = 0;
+                            const update = () => {
+                                current += increment;
+                                if (current < target) {
+                                    counter.textContent = Math.ceil(current);
+                                    requestAnimationFrame(update);
+                                } else {
+                                    counter.textContent = target + 
+                                        (target === 98 ? '%' : 
+                                         target === 24 ? '/7' : '+');
+                                }
+                            };
+                            update();
+                        });
+                    }
+                }
+            });
+        }, { threshold: 0.15, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .stats-container, .skills-wrapper').forEach(el => {
+            revealObserver.observe(el);
+        });
+
+        // ==========================================
+        // HERO IMAGE 3D TILT / PARALLAX
+        // ==========================================
+        const heroImage = document.getElementById('heroImage');
+        if (heroImage && window.matchMedia('(pointer: fine)').matches) {
+            heroImage.parentElement.addEventListener('mousemove', (e) => {
+                const rect = heroImage.parentElement.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const rotateX = ((y - centerY) / centerY) * -12;
+                const rotateY = ((x - centerX) / centerX) * 12;
+                heroImage.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(${Math.sin(Date.now()/700)*25}px)`;
+            });
+            heroImage.parentElement.addEventListener('mouseleave', () => {
+                heroImage.style.transform = '';
+            });
+        }
+
+        // ==========================================
+        // MAGNETIC BUTTON EFFECT
+        // ==========================================
+        if (window.matchMedia('(pointer: fine)').matches) {
+            document.querySelectorAll('.btn-primary, .btn-secondary, .nav-btn').forEach(btn => {
+                btn.addEventListener('mousemove', (e) => {
+                    const rect = btn.getBoundingClientRect();
+                    const x = e.clientX - rect.left - rect.width / 2;
+                    const y = e.clientY - rect.top - rect.height / 2;
+                    btn.style.transform = `translate(${x * 0.15}px, ${y * 0.15}px)`;
+                });
+                btn.addEventListener('mouseleave', () => {
+                    btn.style.transform = '';
+                });
+            });
+        }
+
+        // ==========================================
+        // SMOOTH SCROLL OFFSET
+        // ==========================================
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href.length > 1) {
+                    const target = document.querySelector(href);
+                    if (target) {
+                        e.preventDefault();
+                        const offset = 80;
+                        const targetPos = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                        window.scrollTo({ top: targetPos, behavior: 'smooth' });
+                    }
+                }
+            });
+        });
+
+        // ==========================================
+        // PERFORMANCE: Lazy load images on scroll
+        // ==========================================
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.classList.remove('lazy');
+                        imageObserver.unobserve(img);
+                    }
+                });
+            });
+
+            document.querySelectorAll('img[data-src]').forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+    </script>
 </body>
 </html>
